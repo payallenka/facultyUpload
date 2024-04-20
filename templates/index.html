@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload Form</title>
+</head>
+<body>
+    <h1>Upload a File</h1>
+    <form action="/" method="POST" enctype="multipart/form-data">
+        <!-- Input for first name -->
+        <label for="firstName">First Name:</label>
+        <input type="text" name="firstName" id="firstName">
+
+        <!-- Input for subject -->
+        <label for="subject">Subject:</label>
+        <input type="text" name="subject" id="subject">
+
+        <!-- Input for module -->
+        <label for="module">Module:</label>
+        <input type="text" name="module" id="module">
+
+        <!-- File upload input -->
+        <label for="file">Upload File:</label>
+        <input type="file" name="file" id="file">
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
